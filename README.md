@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Realtime Chat Application</title>
+  <!-- <title>Realtime Chat Application</title> -->
 </head>
 <body>
 
