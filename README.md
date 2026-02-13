@@ -107,14 +107,19 @@ npm install
 
   <p>Create a <code>.env</code> file:</p>
   <pre>
-PORT=5000
-MONGO_URI=your_mongodb_uri
-JWT_SECRET_KEY=your_secret_key
+PORT=
+MONGO_URI=
+NODE_ENV=development
+JWT_SECRET_KEY=
 FRONTEND_URL=http://localhost:5173
-RESEND_API_KEY=your_resend_key
-CLOUDINARY_CLOUD_NAME=your_cloud
-CLOUDINARY_API_KEY=your_key
-CLOUDINARY_API_SECRET=your_secret
+RESEND_API_KEY=
+EMAIL_FROM="onboarding@resend.dev"
+EMAIL_FROM_NAME=
+CLOUDINARY_CLOUD_NAME=
+CLOUDINARY_API_KEY=
+CLOUDINARY_SECRET_KEY=
+ARCJET_KEY=
+ARCJET_END=development
   </pre>
 
   <p>Run backend:</p>
